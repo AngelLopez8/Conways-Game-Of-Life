@@ -29,7 +29,8 @@ namespace Conway {
             event_handle();
 
             // Update Cycle
-            update();
+            if (!paused)
+                update();
 
             // Render Cycle
             clear(sf::Color::Black);    // Clear previous Scene
@@ -58,6 +59,8 @@ namespace Conway {
                     world.set_sleep(world.get_sleep() + 100);
                 else if (event.key.code == sf::Keyboard::Down)
                     world.set_sleep(world.get_sleep() - 100);
+                else if (event.key.code == sf::Keyboard::Space)
+                    paused = !paused;
                 break;         
             default:
                 break;

@@ -17,6 +17,8 @@ namespace Conway {
             World world;    // World Instance
             Tab infoTab;
 
+            bool paused;
+
             // Handle Window Events
             void event_handle();
 
