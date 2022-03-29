@@ -1,5 +1,9 @@
 # Conways-Game-Of-Life
-A C++ Application that visualizes Conway's Game of Life a popular Cellular Automaton.
+A C++ Application that visualizes Conway's Game of Life a popular Cellular Automaton, using SFML:
+> A Simple and Fast Multimedia Library ([SFML](https://www.sfml-dev.org/)) is a cross-platform software development library designed to provide a simple 
+> application programming interface to various multimedia components in computers.
+
+To Install visit: https://www.sfml-dev.org/download/sfml/2.5.1/
 
 ## Description
 Conway's game of life is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input.
