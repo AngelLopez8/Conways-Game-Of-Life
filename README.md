@@ -16,3 +16,7 @@ Every cell interacts with its eight neighbours, which are the cells horizontally
 3. Any live cell with more than three live neighbours dies (as if by overpopulation)
 4. Any dead cell with exactly three live neighbours becomes a live cell (as if by reproduction)
 
+## Controls
+- <kbd>Space</kbd>: Pauses any further generation iteration
+- <kbd>Up</kbd>: Increases Sleep between each render (Slows down)
+- <kbd>Down</kbd>: Decreases Sleep between each render (Speeds up)
