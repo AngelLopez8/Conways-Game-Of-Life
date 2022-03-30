@@ -5,6 +5,8 @@
 #include <iostream>
 #include <unordered_map>
 
+#define TEXT_SIZE 50
+
 namespace Conway {
     class Tab {
         public:

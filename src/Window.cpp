@@ -83,9 +83,9 @@ namespace Conway {
     void Window::render() {
         world.draw(*this);
 
-        infoTab.update_info("Generation:", std::to_string(world.get_generation()));
+        infoTab.update_info("# Dead:", std::to_string(world.get_dead_cells()));
         infoTab.update_info("# Alive:", std::to_string(world.get_alive_cells()));
-        infoTab.update_info("# Dead:", std::to_string(world.get_dead_cells())); 
+        infoTab.update_info("Generation:", std::to_string(world.get_generation()));
 
         infoTab.draw(*this);
     }
